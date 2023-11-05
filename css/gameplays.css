@@ -1,0 +1,136 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0f788;
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+    color: #38502D;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+ .root{
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+}
+ 
+ /* Nav-Bar Section */
+ 
+ .nav{
+     width: 100vw;
+     background-color: #38502D;
+     display: flex;
+     align-items: right;
+     margin: 0;
+     border: #8E9C57 2px solid;
+ }
+ .n-logo{
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     align-self: flex-start;
+     margin-left: 15px;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     cursor: pointer;
+     
+ 
+ }
+ .n-logo:hover{
+     -webkit-box-shadow: 0 0 5px #000;
+     box-shadow: 0 0 5px #000;
+ }
+ 
+  /* Nav-Bar Links */
+  .nav-link{
+     margin-top: 15px;
+  }
+  
+  .links{
+     color: #8E9C57;
+     font-size: 35px;
+     text-decoration: none;
+     align-items: center;
+     padding: 25px;
+     
+     
+     
+ }
+ .links:hover{
+     color: #3B0B1E;
+     z-index: 4;
+     transition: 0.05s ease;
+    
+ }
+ 
+   /* Nav-Bar Links */
+ 
+   /* Nav-Bar Section */
+
+    /* EXTRAS */
+    svg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -5;
+    
+    }
+    
+    @keyframes my-animation {
+        from {
+          -moz-transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+        }
+        to {
+          -moz-transform: translateX(100%);
+          -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+        }
+      } 
+.gm{
+        color: #3B0B1E;
+}
+.separator{
+    content: '';
+    width: 120vw;
+    margin-left: -25px;
+    height: 500px;
+    clip-path: polygon(1% 35%, 1% 43%, 16% 40%, 31% 44%, 47% 40%, 60% 44%, 72% 39%, 85% 43%, 98% 39%, 97% 30%, 86% 27%, 71% 29%, 58% 24%, 46% 26%, 31% 23%, 19% 25%, 0% 24%);
+    background-color: #3B0B1E;
+    border-bottom: #000 2px solid ;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+    padding: 55px;
+    background-color: #3B0B1E;
+}
+.gm-pic{
+    width: 800px;
+    height: 500px;
+    border-radius: 55PX;
+    -webkit-box-shadow: 0 0 50px #000;
+    box-shadow: 0 0 50px #000;
+
+}
+.gm-name{
+    color: #fff;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px #000;
+    
+}
+.gm-pic:hover{
+    width: 850px;
+    height: 550px;
+    border-radius: 55PX;
+    
+}
+    

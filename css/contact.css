@@ -1,0 +1,243 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0f788;
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+    color: #38502D;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ .root{
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+ 
+ }
+ 
+ /* Nav-Bar Section */
+ 
+ .nav{
+     width: 100vw;
+     background-color: #38502D;
+     display: flex;
+     align-items: right;
+     margin: 0;
+     border: #8E9C57 2px solid;
+ }
+ .n-logo{
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     align-self: flex-start;
+     margin-left: 15px;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     cursor: pointer;
+     
+ 
+ }
+ .n-logo:hover{
+     -webkit-box-shadow: 0 0 5px #000;
+     box-shadow: 0 0 5px #000;
+ }
+ 
+  /* Nav-Bar Links */
+  .nav-link{
+     margin-top: 15px;
+  }
+  
+  .links{
+     color: #8E9C57;
+     font-size: 35px;
+     text-decoration: none;
+     align-items: center;
+     padding: 25px;
+     
+     
+     
+ }
+ .links:hover{
+     color: #3B0B1E;
+     z-index: 4;
+     transition: 0.05s ease;
+    
+ }
+ 
+   /* Nav-Bar Links */
+ 
+   /* Nav-Bar Section */
+
+    /* EXTRAS */
+
+ 
+   marquee {
+    font-weight: 500;
+    font-size: 26px;
+    text-align: left;
+    color: #8E9C57;
+  /* animation properties
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 1s linear infinite;
+  -webkit-animation: my-animation 1s linear infinite;
+  animation: my-animation 20s linear infinite; */
+}
+svg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+
+}
+
+@keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  } 
+
+  /* EXTRAS */
+.cnt-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    z-index: 2;
+}
+.cnt-body{
+ z-index: 3;
+}
+.label{
+    color: #3B0B1E;
+}
+.cnt-txt{
+    color: #3B0B1E;
+    font-size: 65px;
+    margin-left: -600px;
+    margin-top: -280px;
+    z-index: 2;
+    
+}
+span{
+    color: #3B0B1E;
+    text-decoration: none;
+  box-shadow: inset 0 -2px 0 #3B0B1E, 0 2px 0 #1A2C1D;
+  transition: box-shadow .3s;
+  overflow: hidden;
+}
+span:hover{
+    
+        box-shadow: inset 0 -50px 0 #8E9C57, 0 1px 0 #8E9C57;
+}
+
+.light{
+    transform: rotate(90deg);
+    align-self: center;
+    margin-top: -350px;
+    margin-left: -500px;
+    width: 150px;
+    height: 500px;
+    border-radius: 0px 0px 70px 0px;
+    background-color: #6E8856; 
+}
+.light2{      
+    transform: rotate(90deg);
+    width: 750px;
+    height: 950px;
+    margin-left: 60px;
+    margin-top: -270px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: #6E8856;
+   
+}
+h1{
+    font-size: 50px;
+}
+
+.h-logo{
+    border-radius: 100px;
+    margin-left: -130px;
+    z-index: 1;
+    
+}
+.payment{
+    position: absolute;
+    color: #000;
+    
+}
+.formdiv{
+    margin-left: 450px;
+    margin-top: -980px;
+    font-size: 25px;
+    width: 1000px;
+    padding: 100px;
+    height: 80vh;
+}
+.Gform{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 400px 400px;
+    grid-template-rows: 15vh 15vh 15vh 15vh; */
+    z-index: 3;
+    /* background-color: red; */
+    
+}
+label{
+    text-align: left;
+}
+#paybtn{
+    background-color: #1A2C1D;
+    color: #8E9C57;
+    font-family: 'Teko', sans-serif;
+    border-radius: 0px 0px 25px 0px;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 25PX;
+}
+#paybtn:hover{
+    color: #6E8856;
+    background-color: #3B0B1E;
+    transition: .3s ease-in-out;
+}
+.Input{
+    width: 500px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    color: #1A2C1D;
+    border-bottom: #3B0B1E 2px solid;
+    padding: 25px;
+    text-align: center;
+
+}
+.p1 , .p2, .p3 {
+    color: #3B0B1E;
+    font-weight: 800px;
+    font-size: 40px;
+}
+.cnt{
+    color: #3B0B1E;
+}
